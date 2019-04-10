@@ -138,3 +138,8 @@ nav {
   padding-top: 10px;
   font-family: Arial;
 }
+textarea {
+  margin-left: 35%;
+  width: 300px;
+  height: 350px;
+}
