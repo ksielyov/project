@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/form.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/auth.js"></script>
   <title>Подключение бота</title>
 </head>
 <body>
@@ -37,18 +39,18 @@
         </ul>
       </nav>
   </header>
-  <form action="#">
-    <div class="form">
-      <p class="form">Введите свой email-адрес</p>
-      <input type="text" placeholder="myemail@example.com">
-      <p class="form">Введите свой логин</p>
-      <input type="text" placeholder="Ваш логин">
-      <p class="form">Введите свой пароль</p>
-      <input type="password">
-      <p class="form">Подтвердите свой пароль</p>
-      <input type="password">
-      <div id="status"></div>
-      <a href="#" class="btn">зарегистрироваться</a>
+  <form>
+    <div class="form" id="form">
+        <p class="form">Введите свой email-адрес</p>
+        <input type="text" placeholder="myemail@example.com" id="email">
+        <p class="form">Введите свой логин</p>
+        <input type="text" placeholder="Ваш логин" id="login">
+        <p class="form">Введите свой пароль</p>
+        <input type="password" id="password">
+        <p class="form">Подтвердите свой пароль</p>
+        <input type="password" id="password2">
+        <div id="status"></div>
+        <a class="btn">зарегистрироваться</a>
     </div>
   </form>
   <footer>
