@@ -141,5 +141,37 @@ nav {
 textarea {
   margin-left: 35%;
   width: 300px;
-  height: 350px;
+  height: 350;
+}
+form {
+    height: 700px;
+    background: url(../img/func_fon.jpg) no-repeat center top / cover;
+}
+.form input {
+    border: solid 3px grey;
+    border-radius: 6px;
+    width: 320px;
+    height: 38px;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn {
+    background: #D31B5B;
+    color: white;
+    border-radius: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 320px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+
 }
