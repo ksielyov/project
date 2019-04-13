@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.btn').on('click', function(){
-		
+
 		var email         = $('#email').val();
 		var login         = $('#login').val();
 		var password      = $('#password').val();
@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 		else if ( login.length > 12 )
 		{
-			$('#status').html('Логин не должен быть больше 12 симолов');
+			$('#status').html('Логин не должен быть больше 12 символов');
 			return 0;
 		}
 
