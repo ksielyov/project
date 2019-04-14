@@ -138,11 +138,7 @@ nav {
   padding-top: 10px;
   font-family: Arial;
 }
-textarea {
-  margin-left: 35%;
-  width: 300px;
-  height: 350;
-}
+
 /*form {
     height: 700px;
     background: url(../img/func_fon.jpg) no-repeat center top / cover;
@@ -165,13 +161,17 @@ form {
   border-radius: 5vh;
 }
 
-.form input {
+.form input, textarea {
     border: solid 3px grey;
     border-radius: 6px;
     width: 320px;
     height: 38px;
     margin-top: 8px;
     font-family: 'Montserrat', sans-serif;
+}
+textarea {
+    width: 500px;
+    height: 300px;
 }
 .form p {
     font-size: 18px;
@@ -221,4 +221,8 @@ form {
   justify-content: flex-end;
   align-items: flex-start;
   font-size: 18px;
+}
+.question {
+    background: url(../img/question_fon.jpg) no-repeat center top / cover;
+    height: 800px;
 }
