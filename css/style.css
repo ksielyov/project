@@ -143,10 +143,28 @@ textarea {
   width: 300px;
   height: 350;
 }
-form {
+/*form {
     height: 700px;
     background: url(../img/func_fon.jpg) no-repeat center top / cover;
+}*/
+form {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  z-index:15;
+  justify-content: center;
+  align-items: center;
 }
+
+#block_form {
+  background: url(../img/func_fon.jpg) no-repeat center top / cover;
+  padding: 5vh 5vw;
+  /*width: 40vw;
+  height: 40vh;*/
+  border-radius: 5vh;
+}
+
 .form input {
     border: solid 3px grey;
     border-radius: 6px;
@@ -158,6 +176,7 @@ form {
 .form p {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5vh;
 }
 #btn {
     background: #D31B5B;
@@ -174,4 +193,32 @@ form {
     text-align: center;
     font-size: 21px;
 
+}
+
+#form_bg {
+  background:#222;
+  height:100%;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.7;
+  position: fixed;
+}
+
+#auth_form {
+    background: #fff;
+    width: 40vw;
+    height: 40vh;
+    position: fixed;
+}
+
+
+#form_bg, #form_fixed {
+  display: none;
+}
+
+.form i {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 18px;
 }
