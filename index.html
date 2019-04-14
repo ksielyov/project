@@ -7,11 +7,35 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/auth.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <title>BOT</title>
 </head>
 <body>
+    <div id="form_bg"></div>
+    <div id="form_fixed">
+      <form>
+        <div class="form" id="block_form">
+            <i id="close_auth_form" class="fa fa-times-circle" aria-hidden="true"></i>
+            <p class="form">Введите свой email-адрес</p>
+            <input type="text" placeholder="myemail@example.com" id="email">
+            <div id="stat1"></div>
+            <p class="form">Введите свой логин</p>
+            <input type="text" placeholder="Ваш логин" id="login">
+            <div id="stat2"></div>
+            <p class="form">Введите свой пароль</p>
+            <input type="password" id="password">
+            <div id="stat3"></div>
+            <p class="form">Подтвердите свой пароль</p>
+            <input type="password" id="password2">
+            <div id="status"></div>
+            <a id="btn" class="btn_auth_form">Зарегистрироваться</a>
+        </div>
+      </form>
+    </div>
     <header>
         <div class="logo">
             <a href="index.html">
@@ -42,7 +66,7 @@
       <div class="text_expl">
       <h1>Lorem ipsum</h1>
       <p>Lorem ipsum - самый лучший <br> бот для накрутки подписчиков <br> в социальной сети Instagram</p>
-      <a href="form.html" class="btn">Подключить бота</a>
+      <a id="btn_form_open" class="btn">Подключить бота</a>
       </div>
     </section>
     <section class="pricelist">
@@ -81,5 +105,8 @@
         </ul>
       </nav>
     </footer>
+<!--   <div id="auth_form">
+    hhh
+  </div> -->
 </body>
 </html>

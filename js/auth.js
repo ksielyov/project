@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.btn').on('click', function(){
+	$('.btn_auth_form').on('click', function(){
 
 		var email         = $('#email').val();
 		var login         = $('#login').val();
@@ -32,5 +32,14 @@ $(document).ready(function(){
 		}
 
 		$('#status').html('Успешная регистрация');
+	});
+
+	$('#btn_form_open').on('click', function(){
+		$('#form_bg').css('display', 'block');
+		$('#form_fixed').show(1000);
+	});
+	$('#close_auth_form').on('click', function(){
+		$('#form_fixed').hide(500);
+		$('#form_bg').css('display', 'none');		
 	});
 });
