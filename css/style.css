@@ -224,5 +224,7 @@ textarea {
 }
 .question {
     background: url(../img/question_fon.jpg) no-repeat center top / cover;
-    height: 800px;
+    height: 90vh;
+    padding-left: 80px;
+    padding-top: 45px;
 }
