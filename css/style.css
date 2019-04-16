@@ -192,7 +192,6 @@ textarea {
     text-decoration: none;
     text-align: center;
     font-size: 21px;
-
 }
 
 #form_bg {
@@ -227,4 +226,21 @@ textarea {
     height: 90vh;
     padding-left: 80px;
     padding-top: 45px;
+}
+.answers {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 60px;
+}
+.answers h1 {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.answers p {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 25px;
 }
