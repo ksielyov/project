@@ -238,9 +238,12 @@ textarea {
     font-weight: 500;
     font-size: 22px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 .answers p {
     font-weight: 500;
     font-size: 15px;
     padding-bottom: 25px;
+    cursor: pointer;
+    display: none;
 }
