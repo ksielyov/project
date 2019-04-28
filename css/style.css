@@ -235,13 +235,13 @@ textarea {
     padding-right: 60px;
 }
 .answers h1 {
-    font-weight: 500;
+    font-weight: 900;
     font-size: 22px;
     padding-bottom: 10px;
     cursor: pointer;
 }
 .answers p {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     padding-bottom: 25px;
     cursor: pointer;
