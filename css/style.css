@@ -6,33 +6,37 @@ body {
     text-align: center;
 }
 h1 {
-    padding-top: 190px;
+    padding-top: 26vh;
 }
 header {
     background-color: #f6f6f6;
 }
+header img, footer img {
+    width: 11vh;
+    height: 9.25vh;
+}
 header li, footer li {
-    margin-right: 40px;
-    margin-top: 20px;
+    margin-right: 7vh;
+    margin-top: 3.5vh;
 }
 header a, footer a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 2.45vh;
     font-weight: bold;
 }
 .expl {
     background: url(../img/insta.jpg) no-repeat center top / cover;
-    height: 800px;
+    height: 106vh;
     display: flex;
 }
 .expl h1 {
-    font-size: 45px;
+    font-size: 8.75vh;
     color: red;
 }
 .expl p {
-    margin-top: 67px;
+    margin-top: 6.2vh;
     font-size: 30px;
     color: black;
 }
@@ -40,35 +44,35 @@ header a, footer a {
     background: #D31B5B;
     color: white;
     border-radius: 15px;
-    margin-top: 80px;
+    margin-top: 9.35vh;
     font-weight: 400;
     display: block;
     font-size: 25px;
 }
 .pricelist {
     background: url(../img/price_fon.jpg) no-repeat center top / cover;
-    height: 800px;
+    height: 106vh;
 }
 .pricelist h1 {
-    font-size: 35px;
+    font-size: 6.2vh;
     color: red;
 }
 .pricelist p {
-    font-size: 25px;
+    font-size: 3.6vh;
     padding-top: 60px;
     color: black;
 }
 .func {
     background: url(../img/func_fon.jpg) no-repeat center top / cover;
-    height: 800px;
+    height: 106vh;
 }
 .func h1 {
-    font-size: 35px;
+    font-size: 6.2vh;
     padding-bottom: 25px;
     color: blue;
 }
 .func li {
-    font-size: 22px;
+    font-size: 3.6vh;
     padding-top: 20px;
 }
 
