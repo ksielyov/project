@@ -1,16 +1,22 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1 {
+    padding-top: 190px;
+}
 header {
     background-color: #f6f6f6;
 }
-header li {
+header li, footer li {
     margin-right: 40px;
     margin-top: 20px;
 }
 header a, footer a {
     color: black;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -22,18 +28,13 @@ header a, footer a {
     display: flex;
 }
 .expl h1 {
-    text-align: center;
-    padding-top: 220px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     color: red;
 }
 .expl p {
     margin-top: 67px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: black;
-    text-align: center;
 }
 .btn {
     background: #D31B5B;
@@ -41,75 +42,34 @@ header a, footer a {
     border-radius: 15px;
     margin-top: 80px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
     display: block;
-    text-align: center;
     font-size: 25px;
 }
 .pricelist {
-  background: url(../img/price_fon.jpg) no-repeat center top / cover;
-  height: 800px;
+    background: url(../img/price_fon.jpg) no-repeat center top / cover;
+    height: 800px;
 }
-.pricelist_expl {
-  padding-top: 110px;
-  padding-left: 22%;
+.pricelist h1 {
+    font-size: 35px;
+    color: red;
 }
-.pricelist_expl h1 {
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  color: red;
-}
-.pricelist_expl p {
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 17%;
-  padding-top: 60px;
-  color: black;
-}
-#price1 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 55px;
-  padding-left: 12%;
-  color: black;
-}
-#price2 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 20px;
-  padding-left: 12.39%;
-  color: black;
-}
-.bot {
-  margin-top: 150px;
-  margin-left: 8%;
-}
-#price {
-  font-size: 27px;
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 7%;
+.pricelist p {
+    font-size: 25px;
+    padding-top: 60px;
+    color: black;
 }
 .func {
-  background: url(../img/func_fon.jpg) no-repeat center top / cover;
-  height: 800px;
+    background: url(../img/func_fon.jpg) no-repeat center top / cover;
+    height: 800px;
 }
-.func_exp {
-  padding-left: 27%;
-  padding-top: 250px;
+.func h1 {
+    font-size: 35px;
+    padding-bottom: 25px;
+    color: blue;
 }
-.func_exp h1 {
-  font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
-  color: blue;
-}
-.func_exp ul {
-  padding-top: 35px;
-  padding-left: 12%;
-}
-.func_exp li {
-  font-size: 27px;
-  padding-top: 10px;
-  font-family: Arial;
+.func li {
+    font-size: 22px;
+    padding-top: 20px;
 }
 
 /*form {
