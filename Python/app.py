@@ -1,4 +1,13 @@
 from tkinter import *
+import requests
+
+def serverReg(root):
+	if password.get() != checkPassword.get():
+		print ("You are gay and penis")
+	else:
+		req = requests.get('http://project.kiselyov.ml/auth.php?act=reg&login='+str (login)+'&password='+str (password))
+		print (req.status_code)
+
 root = Tk()
 
 root.title("Регистрация")
@@ -20,4 +29,7 @@ login.grid(row=0, column=1)
 password.grid(row=1, column=1)
 checkPassword.grid(row=2, column=1)
 button.grid(row=3, column=1)
+
+button.bind('<Button-1>', serverReg)
+
 root.mainloop()
