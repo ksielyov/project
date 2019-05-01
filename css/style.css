@@ -1,142 +1,79 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1 {
+    padding-top: 26vh;
 }
 header {
-  background-color: #f6f6f6;
-
+    background-color: #f6f6f6;
 }
-.logo {
-  width: 67px;
-  height: 55px;
-  display: inline-block;
-  margin-left: 35px;
+header img, footer img {
+    width: 11vh;
+    height: 9.25vh;
 }
-nav {
-  float: right;
-  margin-top: 20px;
+header li, footer li {
+    margin-right: 7vh;
+    margin-top: 3.5vh;
 }
-.menu {
-  display: block;
-}
-.menu li, footer li {
-  float: left;
-  display: block;
-  margin-right: 41px;
-}
-.menu a, footer a {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
+header a, footer a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.45vh;
+    font-weight: bold;
 }
 .expl {
-  background: url(../img/insta.jpg) no-repeat center top / cover;
-  height: 800px;
-  display: flex;
+    background: url(../img/insta.jpg) no-repeat center top / cover;
+    height: 106vh;
+    display: flex;
 }
-.text_expl {
-  margin-top: 180px;
-  margin-left: 35%;
-  height: 420px;
-
+.expl h1 {
+    font-size: 8.75vh;
+    color: red;
 }
-.text_expl h1 {
-  text-align: center;
-  padding-top: 60px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
-  color: red;
-}
-.text_expl p {
-  margin-top: 67px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  color: black;
-  padding-top: 10px;
-  text-align: center;
+.expl p {
+    margin-top: 6.2vh;
+    font-size: 30px;
+    color: black;
 }
 .btn {
-  background: #D31B5B;
-  color: white;
-  border-radius: 15px;
-  margin-left: 15%;
-  margin-top: 80px;
-  font-weight: 400;
-  font-family: 'Quicksand', sans-serif;
-  display: block;
-  width: 320px;
-  height: 55px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 25px;
-  padding-top: 17px;
+    background: #D31B5B;
+    color: white;
+    border-radius: 15px;
+    margin-top: 9.35vh;
+    font-weight: 400;
+    display: block;
+    font-size: 25px;
 }
 .pricelist {
-  background: url(../img/price_fon.jpg) no-repeat center top / cover;
-  height: 800px;
+    background: url(../img/price_fon.jpg) no-repeat center top / cover;
+    height: 106vh;
 }
-.pricelist_expl {
-  padding-top: 110px;
-  padding-left: 22%;
+.pricelist h1 {
+    font-size: 6.2vh;
+    color: red;
 }
-.pricelist_expl h1 {
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  color: red;
-}
-.pricelist_expl p {
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 17%;
-  padding-top: 60px;
-  color: black;
-}
-#price1 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 55px;
-  padding-left: 12%;
-  color: black;
-}
-#price2 {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  padding-top: 20px;
-  padding-left: 12.39%;
-  color: black;
-}
-.bot {
-  margin-top: 150px;
-  margin-left: 8%;
-}
-#price {
-  font-size: 27px;
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 7%;
+.pricelist p {
+    font-size: 3.6vh;
+    padding-top: 60px;
+    color: black;
 }
 .func {
-  background: url(../img/func_fon.jpg) no-repeat center top / cover;
-  height: 800px;
+    background: url(../img/func_fon.jpg) no-repeat center top / cover;
+    height: 106vh;
 }
-.func_exp {
-  padding-left: 27%;
-  padding-top: 250px;
+.func h1 {
+    font-size: 6.2vh;
+    padding-bottom: 25px;
+    color: blue;
 }
-.func_exp h1 {
-  font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
-  color: blue;
-}
-.func_exp ul {
-  padding-top: 35px;
-  padding-left: 12%;
-}
-.func_exp li {
-  font-size: 27px;
-  padding-top: 10px;
-  font-family: Arial;
+.func li {
+    font-size: 3.6vh;
+    padding-top: 20px;
 }
 
 /*form {
