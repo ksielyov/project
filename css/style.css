@@ -84,6 +84,12 @@ nav a {
     height: 700px;
     background: url(../img/func_fon.jpg) no-repeat center top / cover;
 }*/
+
+/* styles for form.html */
+.section {
+    background: url(../img/insta.jpg) no-repeat center top / cover;
+}
+
 form {
     position: fixed;
     height: 100vh;
@@ -118,21 +124,6 @@ textarea {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 0.5vh;
-}
-#btn {
-    background: #D31B5B;
-    color: white;
-    border-radius: 15px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    width: 320px;
-    height: 40px;
-    padding-top: 10px;
-    margin-top: 20px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 21px;
 }
 
 #form_bg {

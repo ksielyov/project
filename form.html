@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/form.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/auth.js"></script>
-  <title>Подключение бота</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Подключение бота</title>
 </head>
 <body>
-  <header>
-      <div class="logo">
-          <a href="index.html">
-            <img src="img/log.jpg" alt="logo">
-          </a>
-      </div>
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="#">Functions</a>
-          </li>
-          <li>
-            <a href="#">Tarifs</a>
-          </li>
-          <li>
-            <a href="#">Articles</a>
-          </li>
-          <li>
-            <a href="#">Forum</a>
-          </li>
-          <li>
-            <a href="#">Cabinet</a>
-          </li>
-        </ul>
-      </nav>
-  </header>
-  <form>
-    <div class="form" id="form">
-        <p class="form">Введите свой email-адрес</p>
-        <input type="text" placeholder="myemail@example.com" id="email">
-        <p class="form">Введите свой логин</p>
-        <input type="text" placeholder="Ваш логин" id="login">
-        <p class="form">Введите свой пароль</p>
-        <input type="password" id="password">
-        <p class="form">Подтвердите свой пароль</p>
-        <input type="password" id="password2">
-        <div id="status"></div>
-        <a class="btn">зарегистрироваться</a>
-    </div>
-  </form>
-  <footer>
-    <div class="logo">
-        <a href="index.html">
-          <img src="img/log.jpg" alt="logo">
-        </a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Разработчикам</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/log.jpg" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Functions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Articles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tarifs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Forum</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cabinet</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group">
+                            <label for="login">Введите логин</label>
+                            <input type="text" class="form-control" placeholder="Введите логин">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Введите свой e-mail адрес</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@mail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Введите свой пароль</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Введите повторно свой пароль</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="button" class="btn btn-block">Подключить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/log.jpg" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">О нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Разработчикам</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/auth.js"></script>
 
 </body>
 </html>
