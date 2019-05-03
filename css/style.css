@@ -84,6 +84,7 @@ nav a {
     height: 700px;
     background: url(../img/func_fon.jpg) no-repeat center top / cover;
 }*/
+
 form {
     position: fixed;
     height: 100vh;
@@ -100,39 +101,6 @@ form {
     /*width: 40vw;
     height: 40vh;*/
     border-radius: 5vh;
-}
-
-.form input, textarea {
-    border: solid 3px grey;
-    border-radius: 6px;
-    width: 320px;
-    height: 38px;
-    margin-top: 8px;
-    font-family: 'Montserrat', sans-serif;
-}
-textarea {
-    width: 500px;
-    height: 300px;
-}
-.form p {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 0.5vh;
-}
-#btn {
-    background: #D31B5B;
-    color: white;
-    border-radius: 15px;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    width: 320px;
-    height: 40px;
-    padding-top: 10px;
-    margin-top: 20px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 21px;
 }
 
 #form_bg {
@@ -153,38 +121,5 @@ textarea {
 
 
 #form_bg, #form_fixed {
-    display: none;
-}
-
-.form i {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    font-size: 18px;
-}
-.question {
-    background: url(../img/question_fon.jpg) no-repeat center top / cover;
-    height: 90vh;
-    padding-left: 80px;
-    padding-top: 45px;
-}
-.answers {
-    font-family: 'Montserrat', sans-serif;
-    float: right;
-    vertical-align: top;
-    display: inline-block;
-    padding-right: 60px;
-}
-.answers h1 {
-    font-weight: 900;
-    font-size: 22px;
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-.answers p {
-    font-weight: 600;
-    font-size: 15px;
-    padding-bottom: 25px;
-    cursor: pointer;
     display: none;
 }
