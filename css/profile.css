@@ -7,47 +7,43 @@ body {
     background-color: #d7d7d7;
 }
 img {
-    margin-top: 40px;
+    margin-top: 5vh;
+    width: 25.5vh;
+    height: 22vh;
 }
 .info {
-    margin-top: 55px;
+    margin-top: 6vh;
     display: inline-block;
 }
 .info h1 {
-    font-size: 30px;
+    font-size: 4.5vh;
     display: inline-block;
 }
 .info h2 {
-    font-size: 22.5px;
+    font-size: 3.55vh;
     color: #2e78ad;
-    margin-top: 70px;
+    margin-top: 10vh;
     display: inline-block;
 }
-.counter {
-    margin-top: 55px;
-    text-align: center;
-}
-.counter h1, .counter h2 {
-    font-size: 35px;
-}
-.counter h2 {
-    margin-top: 60px;
-}
-.counter p {
-    font-size: 40px;
-    margin-top: 50px;
-    font-weight: 900;
-}
 .btn {
-    border: 2px solid #000;
+    border: 0.5vh solid #000;
     background-color: #d7d7d7;
-    font-size: 26px;
+    font-size: 4vh;
+    margin-top: 4.5vh;
 }
 .events, .events__ex {
     border: 2px solid #000;
-    font-size: 30px;
+    font-size: 4vh;
     text-transform: uppercase;
 }
 .events h1, p {
     display: inline-block;
+    margin-top: 3.7vh;
+    margin-bottom: 4vh;
+}
+.events h1, p {
+    margin-left: 3vh;
+}
+.events p {
+    color: #2e78ad;
 }
