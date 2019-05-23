@@ -10,10 +10,10 @@ header, footer {
 }
 section {
     background: url(../img/question_fon.jpg) no-repeat center top / cover;
-    height: 95vh;
+    height: 120vh;
 }
 p {
-    font-size: 30px;
-    padding-top: 150px;
+    font-size: 3.8vh;
+    padding-top: 16vh;
     color: red;
 }
