@@ -14,11 +14,11 @@ nav li {
 	margin-right: 2vh;
 	font-size: 2.9vh;
 }
-.first, .second, .third {
+.first{
 	height: 100vh;
 }
-.fourth {
-	height: 115vh;
+.second, .third, .fourth {
+	height: 135vh;
 }
 .first {
 	background: url(../img/fon.jpg) no-repeat center top / cover;
@@ -44,12 +44,12 @@ nav li {
 	margin-top: 5.9vh;
 }
 .content ul {
-	margin-top: 30px;
+	margin-top: 4vh;
 }
 .content li {
 	text-align: left;
-	padding-bottom: 13px;
-	font-size: 21.5px;
+	padding-bottom: 1.8vh;
+	font-size: 3vh;
 	color: #0000cc;
 }
 .btn {
@@ -62,4 +62,8 @@ nav li {
 }
 .btn:hover {
 	background-color: #333399;
+}
+#exp {
+	padding-top: 10vh;
+	height: 140vh;
 }
