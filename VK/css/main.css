@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat';
+	font-weight: 900;
+	text-align: center;
+}
+header img, footer img {
+    width: 11vh;
+    height: 9.25vh;
+}
+nav li {
+	margin-right: 2vh;
+	font-size: 2.9vh;
+}
+.first{
+	height: 100vh;
+}
+.second, .third, .fourth {
+	height: 135vh;
+}
+.first {
+	background: url(../img/fon.jpg) no-repeat center top / cover;
+}
+.second {
+	background: url(../img/price.jpg) no-repeat center top / cover;
+}
+.third {
+	background: url(../img/cause.jpg) no-repeat center top / cover;
+}
+.fourth {
+	background: url(../img/fon.jpg) no-repeat center top / cover;
+}
+.content {
+	padding-top: 26.1vh;
+}
+.content h1 {
+	font-size: 4.9vh;
+	color: #000099;
+}
+.content p {
+	font-size: 4vh;
+	margin-top: 5.9vh;
+}
+.content ul {
+	margin-top: 4vh;
+}
+.content li {
+	text-align: left;
+	padding-bottom: 1.8vh;
+	font-size: 3vh;
+	color: #0000cc;
+}
+.btn {
+	background-color: #3300cc;
+	border: none;
+	font-size: 3.4vh;
+	color: #fff;
+	border-radius: 1.83vh;
+	margin-top: 7.2vh;
+}
+.btn:hover {
+	background-color: #333399;
+}
+#exp {
+	padding-top: 10vh;
+	height: 140vh;
+}

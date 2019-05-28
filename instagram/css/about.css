@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+header, footer {
+    background-color: whitesmoke;
+}
+section {
+    background: url(../img/question_fon.jpg) no-repeat center top / cover;
+    height: 120vh;
+}
+p {
+    font-size: 3.8vh;
+    padding-top: 16vh;
+    color: red;
+}
