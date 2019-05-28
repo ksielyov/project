@@ -14,25 +14,48 @@ nav li {
 	margin-right: 2vh;
 	font-size: 2.9vh;
 }
-.first {
-	background: url(../img/fon.jpg) no-repeat center top / cover;
+.first, .second, .third {
 	height: 100vh;
 }
-.incl {
+.fourth {
+	height: 115vh;
+}
+.first {
+	background: url(../img/fon.jpg) no-repeat center top / cover;
+}
+.second {
+	background: url(../img/price.jpg) no-repeat center top / cover;
+}
+.third {
+	background: url(../img/cause.jpg) no-repeat center top / cover;
+}
+.fourth {
+	background: url(../img/fon.jpg) no-repeat center top / cover;
+}
+.content {
 	padding-top: 26.1vh;
 }
-.incl h1 {
-	font-size: 4.6vh;
+.content h1 {
+	font-size: 4.9vh;
 	color: #000099;
 }
-.incl p {
-	font-size: 3.5vh;
+.content p {
+	font-size: 4vh;
 	margin-top: 5.9vh;
+}
+.content ul {
+	margin-top: 30px;
+}
+.content li {
+	text-align: left;
+	padding-bottom: 13px;
+	font-size: 21.5px;
+	color: #0000cc;
 }
 .btn {
 	background-color: #3300cc;
 	border: none;
-	font-size: 2.9vh;
+	font-size: 3.4vh;
 	color: #fff;
 	border-radius: 1.83vh;
 	margin-top: 7.2vh;
