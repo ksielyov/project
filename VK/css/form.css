@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+header img, footer img {
+    width: 11vh;
+    height: 9.25vh;
+}
+nav li {
+	margin-right: 2vh;
+	font-size: 2.9vh;
+}
+section {
+	background: url(../img/cause.jpg) no-repeat center top / cover;
+	height: 115vh;
+}
+form {
+	margin-top: 4.7vh;
+}
+label {
+	font-size: 3.2vh;
+	padding-bottom: 2.1vh;
+}
+.btn {
+	background-color: #3300cc;
+	border: none;
+	font-size: 3.4vh;
+	color: white;
+	border-radius: 1.83vh;
+	margin-top: 7.2vh;
+}
+.btn:hover {
+	background-color: #333399;
+}
