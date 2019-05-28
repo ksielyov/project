@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat';
+	font-weight: 600;
+}
+section {
+	background: url(../img/price.jpg) no-repeat center top / cover;
+}
+form {
+    margin-top: 10vh;
+}
+form input, textarea {
+    border: solid 3px grey;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+form p {
+    font-size: 2.5vh;
+    margin-top: 0.5vh;
+}
+.btn {
+    background-color: #3300cc;
+	border: none;
+	font-size: 3.4vh;
+	color: white;
+	border-radius: 1.83vh;
+	margin-top: 7.2vh;
+	margin-bottom: 4.1vh;
+}
+.btn:hover {
+	background-color: #333399;
+}
+label {
+    margin-bottom: 2vh;
+}
+.answers {
+    margin-top: 15vh;
+}
+.answers h1 {
+    font-weight: 900;
+    font-size: 3.3vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+.answers p {
+    font-weight: 600;
+    font-size: 2.35vh;
+    padding-bottom: 3.5vh;
+    cursor: pointer;
+    display: none;
+}
